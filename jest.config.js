@@ -15,7 +15,7 @@ module.exports = {
     'src/ui/pages/index.tsx',
     'src/ui/components/index.tsx',
     'src/ui/components/templates/index.tsx',
-    'src/ui/globalStyles/',
+    'src/ui/styles/',
     'src/ui/providers/',
     'src/ui/assets/',
     'src/tests/providers/',

@@ -1,13 +1,17 @@
 import { BrowserRouter } from 'react-router-dom'
-import Routes from 'main/routes'
 import { MainProviders } from 'ui/providers'
+import { ChakraProvider } from '@chakra-ui/react'
+import 'ui/styles/global.module.css'
+import Routes from 'main/routes'
 
 const App = () => (
-  <MainProviders>
-    <BrowserRouter>
-      <Routes />
-    </BrowserRouter>
-  </MainProviders>
+  <ChakraProvider>
+    <MainProviders>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </MainProviders>
+  </ChakraProvider>
 )
 
 export default App
