@@ -1,11 +1,11 @@
 {
-  "name": "boilerplate_reactjs_simplified",
+  "name": "boilerplate_reactjs_chakra_webpack",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "author": "Éverton Toffanetto",
+  "author": "Gabriel Rodrigues",
   "description": "This application is a simple boilerplate with robust lints and tests settings.",
-  "repository": "https://github.com/everton-dgn/react_webpack_simplified",
+  "repository": "https://github.com/Gabriel4420/template-example",
   "main": "./src/ui/index.js",
   "scripts": {
     "dev": "env-cmd -f .env.local webpack serve --progress --config webpack/webpack.local.js",
@@ -19,7 +19,7 @@
     "typecheck": "tsc --project tsconfig.json --noEmit",
     "test": "jest --maxWorkers=50% --passWithNoTests",
     "test:w": "jest --watch --maxWorkers=25% --passWithNoTests",
-    "check:update": "yarn upgrade-interactive --latest",
+    "check:update": "npm run upgrade-interactive --latest",
     "prepare": "husky install",
     "release": "semantic-release"
   },
