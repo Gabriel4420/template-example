@@ -1,7 +1,6 @@
+import { Heading } from '@chakra-ui/layout'
 import TitleProps from './types'
 
-const TitleSection = ({ title, className }: TitleProps) => (
-  <h1 className={className}>{title}</h1>
-)
+const TitleSection = ({ title }: TitleProps) => <Heading>{title}</Heading>
 
 export default TitleSection
