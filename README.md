@@ -53,14 +53,14 @@ Este é um projeto de boilerplate, contendo as configurações prontas para o se
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-✅ [React](https://reactjs.org/docs/getting-started.html)
-✅ [Chakra-UI](https://chakra-ui.com/getting-started)
-✅ [Webpack](https://webpack.js.org/)
-✅ [Semantic-Release](https://semantic-release.gitbook.io/semantic-release/)
-✅ [react-refresh-webpack-plugin](https://github.com/pmmmwh/react-refresh-webpack-plugin)
-✅ [Svgr](https://react-svgr.com/)
-✅ [Swc](https://swc.rs/)
-✅ [tailwindcss](https://tailwindcss.com/docs/installation)
+✅ [React](https://reactjs.org/docs/getting-started.html) <br/>
+✅ [Chakra-UI](https://chakra-ui.com/getting-started) <br/>
+✅ [Webpack](https://webpack.js.org/) <br/>
+✅ [Semantic-Release](https://semantic-release.gitbook.io/semantic-release/) <br/>
+✅ [react-refresh-webpack-plugin](https://github.com/pmmmwh/react-refresh-webpack-plugin) <br/>
+✅ [Svgr](https://react-svgr.com/) <br/>
+✅ [Swc](https://swc.rs/)<br/>
+✅ [tailwindcss](https://tailwindcss.com/docs/installation)<br/>
 
 
 
