@@ -1,216 +1,118 @@
-<div align="center">
+<h1 align="center">
+ 📘 Template de boilerplate React + Chakra UI + Webpack 📘
+</h1>
 
-<a href="./LICENSE">![GitHub](https://img.shields.io/github/license/everton-dgn/react_webpack_simplified?style=plastic)</a>
-![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=react-webpack-styled-components-redux-tlk-boilerplate&style=plastic)
-![GitHub repo size](https://img.shields.io/github/repo-size/everton-dgn/react_webpack_simplified?style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/stars/everton-dgn/react_webpack_simplified?color=yellow&style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/v/release/everton-dgn/react_webpack_simplified?color=orange&style=plastic)
-![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/everton-dgn/react_webpack_simplified?style=plastic)
-![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release&style=plastic)
+<p align="center">
+   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Gabriel4420/template-example">
 
-</div>
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Gabriel4420/template-example?logo=html">
 
-<h1 align="center">Boilerplate Complete and updated with React.js, Webpack, Typescript, CSS Modules and Tests</h1>
+  <img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/Gabriel4420/template-example?color=green">
 
-<br />
+  <br>
+  
+  <a href="https://www.codacy.com/manual/Gabriel4420/template-example?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Gabriel4420/template-example&amp;utm_campaign=Badge_Grade">
+    <img src="https://app.codacy.com/project/badge/Grade/6dd6b46abeb14e99935a2b9ac5c6ede2"/>
+  </a>
+  
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/last-commit/Gabriel4420/template-example">
 
-# :memo: About the Project
 
-This application is a boilerplate for large or small systems, especially those that need of security and code quality.
-
-In the construction of the UI, the Atomic Design structure was chosen, organizing the global components into atoms, molecules, organisms and templates.
-
-In addition to being constantly updated, this project was configured in the smallest details to serve as a basis for professional projects that require standardized and easy-to-maintain code architecture and design.
-
----
-
-# :pushpin: Contents
-
-- [Technologies](#globe_with_meridians-technologies)
-- [Features](#triangular_flag_on_post-features)
-- [Prerequisites](#white_check_mark-prerequisites)
-- [How to install and run the project](#question-how-to-install-and-run-the-project)
-  - [Clone Repository](#clone-repository)
-  - [Install Dependencies](#install-dependencies)
-  - [Start Development Environment](#start-development-environment)
-  - [Generate Production Build](#generate-production-build)
-  - [Generate Development Build](#generate-development-build)
-  - [Start Production Environment](#start-production-environment)
-  - [Run Tests](#run-tests)
-  - [Run Tests in Watch Mode](#run-tests-in-watch-mode)
-  - [Run Lints](#run-lints)
-  - [Format code with prettier](#format-code-with-prettier)
-  - [Check for Available Updates for Dependencies](#check-for-available-updates-for-dependencies)
-  - [Generate Semantic Releases](#generate-semantic-releases)
-- [Important Considerations](#rotating_light-important-considerations)
-- [Author](#technologist-author)
-
-<br />
+  <a href="https://www.linkedin.com/in/gabriel-rodrigues-perez-2069b072/">
+    <img alt="Made by Gabriel" src="https://img.shields.io/badge/made%20by-Gabriel-%2304D361">
+  </a>
+</p>
 
 ---
 
-# :globe_with_meridians: Technologies
-
-⚛ React.js
-
-🔥 TypeScript
-
-✨ CSS Modules
-
-🚩 Lints: Husky, ESlint, Commitlint, Lint-Staged, Prettier, EditorConfig and Typecheck
-
-🌸 Semantic Release
-
-✅ Jest
-
-🐙 React Testing Library
-
-🔧 Webpack
-
-<br />
+<p align="center">
+  <img alt="Imagem da Aplicação" src="./public/HomeApp.png" />
+</p>
 
 ---
 
-# :triangular_flag_on_post: Features
+# Indice
 
-- [x] Responsive design;
+- :rocket: [Sobre o Projeto](#rocket-sobre-o-projeto)
+- 👨‍💻️ [Tecnogias utilizadas](#%EF%B8%8F-tecnogias-utilizadas)
+- 📦️ [Como utilizar o projeto](#%EF%B8%8F-como-utilizar-o-projeto)
+---
 
-- [x] Atomic Design;
+## :rocket: Sobre o Projeto
 
-- [x] 100% coverage in tests including: components, templates and pages;
+Este é um projeto de boilerplate, contendo as configurações prontas para o seguinte template como base da aplicação template-example: 
 
-<br />
+🔹  React
+🔹  Chakra UI
+🔹  Webpack
+🔹  testes unitários
 
 ---
 
-# :white_check_mark: Prerequisites
+## 👨‍💻️ Tecnogias utilizadas
 
-- node (latest version lts)
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- yarn
+✅ [React](https://reactjs.org/docs/getting-started.html)
+✅ [Chakra-UI](https://chakra-ui.com/getting-started)
+✅ [Webpack](https://webpack.js.org/)
+✅ [Semantic-Release](https://semantic-release.gitbook.io/semantic-release/)
+✅ [react-refresh-webpack-plugin](https://github.com/pmmmwh/react-refresh-webpack-plugin)
+✅ [Svgr](https://react-svgr.com/)
+✅ [Swc](https://swc.rs/)
+✅ [tailwindcss](https://tailwindcss.com/docs/installation)
 
-<br />
 
----
 
-# :question: How to install and run the project
+### Padronização de código
 
-## Clone Repository
+  - [ESLint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
+  - :mouse: [Editor Config](https://editorconfig.org/)
 
-```bash
-git clone https://github.com/everton-dgn/react_webpack_simplified.git
-```
+### IDE
 
-## Install Dependencies
-
-```bash
-yarn
-```
-
-## Start Development Environment
-
-```bash
-yarn dev
-```
-
-Available in http://localhost:3000
-
-## Generate Production Build
-
-```bash
-yarn build
-```
-
-## Generate Development Build
-
-```bash
-yarn build:dev
-```
-
-## Start Production Environment
-
-```bash
-yarn start
-```
-
-Available in http://localhost:3001
-
-## Run Tests
-
-```bash
-yarn test
-```
-
-## Run Tests in Watch Mode
-
-```bash
-yarn test:w
-```
-
-## Run Lints
-
-```bash
-yarn lint
-```
-
-```bash
-yarn typecheck
-```
-
-```bash
-yarn check-format
-```
-
-## Format code with prettier
-
-```bash
-yarn format
-```
-
-## Check for Available Updates for Dependencies
-
-```bash
-yarn check-update
-```
-
-## Generate Semantic Releases
-
-```bash
-yarn release
-```
-
-<br />
+  - [Visual Studio Code](https://code.visualstudio.com/)
 
 ---
 
-# :rotating_light: Important Considerations
+## 📦️ Como utilizar o projeto
 
-- The husky is configured to not allow commit if there are any lint and typescript errors. The push can only be done if all tests and builds pass.
+Para copiar o projeto, utilize os comandos:
 
-- Due to husky's build check settings, to push with git, the development server must be stopped first or an error will occur in the `git push` command.
+```bash
+  ❯ git clone https://github.com/Gabriel4420/template-example.git
+```
 
-- Some conventions widely used in the React ecosystem were used. For example:
 
-  - In the root of the components folder, an export index was created to facilitate the use of components with named import. In this way, to use a component just import it as an object and use it with the prefix "C", thus avoiding several unnecessary lines of imports:
+**Utilizando o projeto**
 
-    ```jsx
-    import * as C from 'ui/components'
 
-    ...
-    <C.Card>
-      <C.Input />
-    </C.Card>
-    ...
-    ```
+```bash
+  # Atualizar as dependências
+  ❯ npm install
+
+  # Iniciar o projeto
+  ❯ npm run dev
+```
 
 ---
 
-# :technologist: Author
+<h4 align="center">
+  Feito com ❤️ por Gabriel Rodrigues 👋️ <a href="mailto:gabriel_rodrigues_perez@hotmail.com">Entre em contato!</a>
+</h4>
 
-By [Éverton Toffanetto](https://programadordesucesso.com).
+<p align="center">
 
-:link: LinkedIn: https://www.linkedin.com/in/everton-toffanetto
-
-:link: YouTube: https://www.youtube.com/c/ProgramadordeSucesso
-
-:link: Site: https://programadordesucesso.com
+  <a href="https://www.linkedin.com/in/gabriel-rodrigues-perez-2069b072/">
+    <img alt="Gabriel Rodrigues Perez" src="https://img.shields.io/badge/LinkedIn-Gabriel_Rodrigues-0e76a8?style=flat&logoColor=white&logo=linkedin">
+  </a>
+  <a href="https://www.facebook.com/gabriel.rodrigues.perez">
+    <img alt="Gabriel Rodrigues Perez" src="https://img.shields.io/badge/Facebook-Gabriel_Rodrigues-1778F2?style=flat&logoColor=white&logo=facebook">
+  </a>
+  <a href="https://www.instagram.com/gabriel_rodrigues_perez/">
+    <img alt="Gabriel Rodrigues Perez" src="https://img.shields.io/badge/Instagram-@gabriel4420-833AB4?style=flat&logoColor=white&logo=instagram">
+  </a>
+  
+  
+</p>
